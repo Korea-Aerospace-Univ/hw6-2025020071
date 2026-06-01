@@ -8,9 +8,9 @@ int main(void)
 
     for (target = arr; target < arr + 10; target++)
         scanf("%c", target);
-        getchar();
 
-    char maxChar  = arr[0];
+
+    char maxChar  = '\0';
     int  maxCount = 0;
 
     for (target = arr; target < arr + 10; target++) {
